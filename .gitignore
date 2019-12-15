@@ -32,3 +32,8 @@ build/
 /service-eureka/.mvn/
 /service-hello-1/.mvn/
 /service-ribbon/.mvn/
+/.mvn/
+/service-config/.mvn/
+/service-feign/.mvn/
+/service-hello/.mvn/
+/service-zuul/.mvn/
