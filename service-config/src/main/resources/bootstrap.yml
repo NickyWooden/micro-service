@@ -17,14 +17,14 @@ spring:
     config:
       server:
         git:
-          #ÅäÖÃuri
-          uri: https://github.com/forezp/SpringcloudConfig
-          #ÅäÖÃÄ¿Â¼
-          search-paths: respo
-      #git·ÖÖ§
+          #é…ç½®ä»“åº“uri
+          uri: https://github.com/NickyWooden/micro-service
+          #é…ç½®æ–‡ä»¶è·¯å¾„
+          search-paths: yaml
+      #gitç”¨æˆ·åå¯†ç ï¼Œç§æœ‰ä»“åº“å¿…é¡»
       label: master
-#          username: gitÓÃ»§Ãû
-#          password: gitÃÜÂë
+#          username: gitç”¨æˆ·å
+#          password: gitå¯†ç 
 server:
   port: 8888
 
