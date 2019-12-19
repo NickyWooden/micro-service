@@ -1,1 +1,17 @@
 foo: foo version 21
+server:
+  port: 18090
+spring:
+  application:
+    name: hello-service
+  cloud:
+    #config-server配置
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:18081/
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:18080/eureka/

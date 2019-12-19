@@ -1,0 +1,10 @@
+server:
+  port: 8700
+spring:
+  cloud:
+    gateway:
+      default-filters:
+        - name: Hystrix
+          args:
+            name: fallbackcmd
+            fallbackUri: forward:/fallbackcontroller
